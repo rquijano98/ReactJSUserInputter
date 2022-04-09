@@ -1,0 +1,47 @@
+.form-controls {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.form-control label {
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.form-control input {
+  width: 100%;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  font-size: 1.8rem;
+}
+
+.form-control input:focus {
+  outline: none;
+  border: #660066 1px solid;
+}
+
+button {
+  width: 12rem;
+  height: 3.5rem;
+  background-color: #660066;
+  color: #fff;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #800080;
+}

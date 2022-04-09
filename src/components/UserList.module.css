@@ -1,0 +1,11 @@
+.users {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 2rem;
+}

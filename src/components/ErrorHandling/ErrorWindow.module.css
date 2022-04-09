@@ -1,0 +1,39 @@
+.error-popup {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.error-window {
+  background-color: #fff;
+  width: 50rem;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-20%);
+}
+
+.error-window-title {
+  background-color: #660066;
+  color: #fff;
+  padding: 1.4rem;
+  font-size: 2.4rem;
+}
+
+.error-window-text {
+  font-size: 1.6rem;
+  padding: 2rem 1rem 5rem 1rem;
+}
+
+.okay-button {
+  /* display: flex; */
+  align-self: flex-end;
+  margin: 0 1rem 1rem 0;
+}
